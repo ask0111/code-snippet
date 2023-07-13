@@ -6,16 +6,15 @@ const router = new express.Router();
 
 router.get('/', (req, res)=>{
     res.send("Hare Krishna Welcome!");
-    postAxios()
 });
 
-router.post('/test', (req, res)=>{
+router.post('/test', postAxios, (req, res)=>{
     console.log(req.body);
-    // postAxios()
-    res.send("Test...")
+    console.log(response.data, 'kl');
 });
-router.post('/submission', (req, res)=>{
 
+router.get('/test', (req, res)=>{
+    res.send("")
 });
 
 module.exports = router;
