@@ -30,7 +30,7 @@ export default function InputCode() {
 
   const CodeHandler = (e) => {
     e.preventDefault();
-    setOutput();
+    // setOutput();
     getOutput();
     
     
