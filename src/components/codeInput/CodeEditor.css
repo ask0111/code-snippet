@@ -1,0 +1,48 @@
+/* CodeEditor.css */
+
+.code-editor-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .CodeMirror {
+    height: 400px;
+    width: 100%;
+  }
+  
+  .cm-s-material {
+    background-color: #263238;
+    color: #ffffff;
+  }
+  
+  .cm-s-material .CodeMirror-gutters {
+    background-color: #37474f;
+  }
+  
+  .cm-s-material .CodeMirror-cursor {
+    border-left: 2px solid #ffcc00;
+  }
+  
+  .cm-s-material .CodeMirror-linenumber {
+    color: #607d8b;
+  }
+  
+  .cm-s-material .CodeMirror-selected {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .cm-s-material .CodeMirror-line::selection,
+  .cm-s-material .CodeMirror-line > span::selection,
+  .cm-s-material .CodeMirror-line > span > span::selection {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
