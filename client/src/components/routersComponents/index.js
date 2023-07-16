@@ -6,11 +6,7 @@ const CodeSnippet = () => {
     <div className="code-snippet">
       <pre>
         <code>
-          const greet = () => &#123;
-          <br />
-          &nbsp;&nbsp;console.log("Hello, world!");
-          <br />
-          &#125;;
+         
         </code>
       </pre>
     </div>
