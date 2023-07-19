@@ -6,7 +6,7 @@ const CodeSnippet = () => {
     <div className="code-snippet">
       <pre>
         <code>
-         
+         Here write code for codding
         </code>
       </pre>
     </div>
